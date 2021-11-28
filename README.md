@@ -1,7 +1,3 @@
-## NOTE: This repo has not been updated in a while.
-
-You may find that the versions of React, Rails, and Ruby are _NOT_ the most current. Feel free to update this repo and make a PR with new versions. Also, please let me know if you run into any bugs.
-
 # React + Rails No-Fluff Boilerplate
 
 A boilerplate project for anyone interested in making a project that uses React and Rails.
@@ -10,20 +6,18 @@ Note! This boilerplate has _no fluff_! That means that there's nothing set up fo
 
 The main important bit is that the React project has `proxy` set to `localhost:3001` in the `package.json` file. Take a look!
 
+## To-Do
+  [Typescript integration](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)
+  Styled Comps/SCSS/Component Library Organization
+  CI/CD
+  Staging/Prod.
+
 ## Hall of Fame
 
-Here are some projects that have been built using this boilerplate.
 
-- [latercart](https://github.com/bonitac/latercart)
-- [Cards-Against-the-Internet](https://github.com/csx773/Cards-Against-the-Internet)
-- [Jetify](https://github.com/shadeying/Jetify)
-- [watchpoll](https://github.com/grey275/watchpoll)
-- [StartDuck](https://github.com/JerChuang/StartDuck)
-- [Change-App](https://github.com/ZHShang/Change-App)
+## Gettin Started
 
-## Using the boilerplate
-
-First, fork this boilerplate so you get your own copy of it. Once you have done that, you can clone your new repo to your machine, and get started.
+Clone your new repo to your machine, and get started.
 
 You need **TWO** terminals for this.
 
@@ -61,7 +55,7 @@ and it lives in the `api` folder! Put all your controllers in there!
 
 ## Deployment to Heroku
 
-This boilerplate is _almost_ all set up to deal with deploying to Heroku. If you have the Heroku CLI tools installed you can run `heroku create` to create the Heroku project.
+Set up to deal with deploying to Heroku. If you have the Heroku CLI tools installed you can run `heroku create` to create the Heroku project.
 
 Then we must run two commands to tell Heroku to first build our React app, and _then_ build the Rails app.
 
@@ -81,6 +75,3 @@ There are other commands, but these are good to get you started!
 
 To make your app work properly with React Router (if you end up using it) on Heroku, I've added a special route to the `routes.rb` file (`get '*path' ... `).
 
-## Contact
-
-Please contact me at `nima.boscarino@gmail.com` if you have any questions or requests, or post an issue to this repo.
