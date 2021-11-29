@@ -12,9 +12,6 @@ The main important bit is that the React project has `proxy` set to `localhost:3
   CI/CD
   Staging/Prod.
 
-## Hall of Fame
-
-
 ## Gettin Started
 
 Clone your new repo to your machine, and get started.
