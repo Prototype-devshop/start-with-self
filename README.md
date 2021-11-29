@@ -7,10 +7,10 @@ Note! This boilerplate has _no fluff_! That means that there's nothing set up fo
 The main important bit is that the React project has `proxy` set to `localhost:3001` in the `package.json` file. Take a look!
 
 ## To-Do
-  [Typescript integration](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)
-  Styled Comps/SCSS/Component Library Organization
-  CI/CD
-  Staging/Prod.
+* [Typescript integration](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)
+* Styled Comps/SCSS/Component Library Organization
+* CI/CD
+* Staging/Prod.
 
 ## Gettin Started
 
